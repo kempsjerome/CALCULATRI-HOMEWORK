@@ -1,0 +1,121 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Carter+One&family=Mansalva&family=Poppins:wght@100;300&family=Roboto&family=Smooch&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(71, 71, 70);
+}
+
+.Card{
+   background-color: rgb(122, 80, 25);
+   width: 25%;
+   margin: 50px auto;
+   padding: 30px;
+   text-align: center;
+   border-radius: 5px;
+   box-shadow: 0px 0px 10px firebrick;
+   background-image: url(CAL.jpg);
+   background-repeat: repeat;
+   background-size: 1000px;
+   height:420px;
+}
+
+.Card h1{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: 5px 10px 20px rgb(255, 255, 255);
+    font-size: 35px;
+    
+}
+
+.Card h1:hover{
+    transform: scale(1.2);
+}
+
+
+.Card input{
+    width: 100%;
+    margin: 10px 0px;
+    border: none;
+    padding: 10px;
+    border-radius:10px ;
+    border: 1px solid green;
+}
+
+.Card button{
+
+    border: 1PX solid green;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+
+.Card button:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(4, 68, 14);
+
+
+}
+
+button{
+    border: 4px solid white;
+}
+
+span{
+    color: rgb(42, 173, 206);
+    
+   
+    text-shadow: 0px 3px 5px rgb(255, 255, 255);
+ 
+}
+
+.div-btn{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 0px;
+    flex-direction: column;
+    height: 150px;
+    margin-top: 50px;
+  
+}
+.ml{
+    background-color: rgb(235, 213, 22);
+    box-shadow: 3px 3px 3px 0px black;
+    border: 4px solid white;
+}
+
+.so{
+    background-color: rgb(11, 99, 8);
+    box-shadow: 3px 3px 3px 0px black;
+    color: white;
+}
+
+.dv{
+    background-color: rgb(221, 243, 25);
+    box-shadow: 3px 3px 3px 0px black;
+}
+
+
+.button{
+    background-color: rgb(19, 126, 28);
+    color: white;
+    box-shadow: 3px 3px 3px 0px black;
+}
+
